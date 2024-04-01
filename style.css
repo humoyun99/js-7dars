@@ -53,3 +53,26 @@ button{
 button:hover{
     background: blue;
 }
+.userName{
+    font-size: 20px;
+    background: blue;
+    color: aquamarine;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 8px;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+.message{
+    font-size: 20px;
+    background: blue;
+    color: aquamarine;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 8px;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+
