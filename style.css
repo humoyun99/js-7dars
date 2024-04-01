@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+body {
+  font-family: 'Varela', sans-serif;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('./R.jpg');
+    /* rasmni tuliq igalashi uchun */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+}
+input{
+    font-size: 25px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    border: 0;
+    font-family:inherit ;
+}
+input:focus{
+    outline: none;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+
+}
+button{
+    font-size: 20px;
+    background: blue;
+    color: aquamarine;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 8px;
+    font-family: inherit;
+    cursor: pointer;
+    
+}
+button:hover{
+    background: blue;
+}
